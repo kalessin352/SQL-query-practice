@@ -1,6 +1,6 @@
 # SQL Practice — Superstore Dataset
 
-A collection of SQL query exercises using SQLite to practice intermediate-level database operations on a sample retail dataset.
+A collection of SQL query exercises using SQLite to practice database operations on a sample retail dataset.
 
 
 ## Dataset Overview
