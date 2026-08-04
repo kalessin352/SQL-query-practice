@@ -101,8 +101,8 @@ ORDER BY month ASC;
 SELECT
 	CASE
 		WHEN Discount = 0 THEN 'No Discount'
-		WHEN Discount < 0.15 THEN 'Low (1-15%)'
-		WHEN Discount < 0.30 THEN 'Medium (16-30%)'
+		WHEN Discount <= 0.15 THEN 'Low (1-15%)'
+		WHEN Discount <= 0.30 THEN 'Medium (16-30%)'
 		ELSE 'High (31%+)'
 	END AS discount_tier,
 	COUNT(*) AS order_count,
